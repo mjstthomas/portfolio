@@ -1,0 +1,38 @@
+body{
+
+}
+
+header{
+	background: rgb(100, 100, 100);
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+h1{
+	padding-top: 50px;
+	font-size: 75px;
+}
+section{
+	height: 400px;
+}
+h3{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	height: 25%;
+	background: rgb(120, 120, 120);
+
+}
+
+p{
+	width: 100%;
+	height: 300px;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: rgb(180, 180, 180);
+}
+.project{
+	height: 600px;
+}
