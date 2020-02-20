@@ -167,6 +167,10 @@ li{
 		height: 250px;
 		width: 175px;
 	}
+	li img{
+		height: 300px;
+		width: 400px;
+	}
 	p{
 		font-size: 20px;
 		line-height: 30px;
