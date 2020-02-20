@@ -82,9 +82,12 @@ h3{
 	width: 100%;
 	height: 25%;
 }
+.myProjects{
+	padding-left: 0;
+}
 li img{
 	height: 300px;
-	width: 400px;
+	width: 100%;
 }
 li a{
 	font-size: 24px;
@@ -97,7 +100,8 @@ li a{
 	margin: 20px auto;
 }
 main{
-	margin: 0 20%;
+	width: 100%;
+	margin: 0 15%;
 }
 #aboutMe{
 		padding-top: 200px;
@@ -107,8 +111,8 @@ main{
 }
 p{
 	width: 100%;
-	font-size: 32px;
-	line-height: 40px;
+	font-size: 24px;
+	line-height: 32px;
 	margin-top: 25px;
 	margin-bottom: 0;
 	color: black;
@@ -140,6 +144,9 @@ li{
 		margin-right: 15px;
 		margin-left: 0;
 		padding-left: 0;
+	}
+	main{
+		width: inherit;
 	}
 	.me{
 		height: 250px;
