@@ -52,19 +52,15 @@ h1{
 	color: white;
 	height: 40px;
 }
-button{
+.pageLinks{
 	display: inline-block;
+	text-decoration: none;
 	font-size: 32px;
 	width: 10%;
 	height: 30px;
-	border: none;
-	background: none;
 	font-weight: 700;
 	margin-top: 5px;
 	margin-bottom: 10px;
-}
-.pageLinks{
-	text-decoration: none;
 	color: black;
 }
 .projects{
