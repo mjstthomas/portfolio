@@ -51,11 +51,7 @@ h1{
 	height: 50px;
 	background-color: #3B820D;
 }
-.selected{
-	background-color: #2E6982;
-	color: white;
-	height: 40px;
-}
+
 .pageLinks{
 	display: inline-block;
 	text-decoration: none;
@@ -115,7 +111,7 @@ li a{
 }
 main{
 	width: 100%;
-	margin: 0 15%;
+	margin: 0 15% 0 15%;
 }
 #aboutMe{
 		padding-top: 200px;
@@ -144,7 +140,7 @@ li{
 	list-style-type: none;
 }
 
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 800px){
 	h1{
 		display: inline-block;
 		text-align: left;
