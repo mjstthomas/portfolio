@@ -53,8 +53,9 @@ h1{
 }
 
 .pageLinks{
-	display: inline-block;
+	display: inline;
 	text-decoration: none;
+	text-align: center;
 	font-size: 32px;
 	width: 10%;
 	height: 30px;
@@ -64,11 +65,13 @@ h1{
 	color: black;
 }
 .projects{
-	float: right;
-	margin-right: 25%;
+	margin-left: 10px;
+/*	float: right;
+	margin-right: 25%;*/
 }
 .bio{
-	margin-left: 25%;
+	margin-left: 10px;
+	/*margin-left: 25%;*/
 }
 span{
 	font-size: 32px;
@@ -96,8 +99,9 @@ h3{
 	padding-left: 0;
 }
 li img{
+	margin: auto;
 	height: 300px;
-	width: 100%;
+	width: 80%;
 }
 li a{
 	font-size: 24px;
@@ -111,18 +115,18 @@ li a{
 }
 main{
 	width: 100%;
-	margin: 0 15% 0 15%;
+	margin: 0 5% 0 5%;
 }
 #aboutMe{
 		padding-top: 200px;
 }
 #myWork{
-		padding-top: 260px;
+		padding-top: 200px;
 }
 p{
 	width: 100%;
-	font-size: 24px;
-	line-height: 32px;
+	font-size: 20px;
+		line-height: 30px;
 	margin-top: 25px;
 	margin-bottom: 0;
 	color: black;
@@ -142,10 +146,9 @@ li{
 
 @media screen and (min-width: 800px){
 	h1{
-		display: inline-block;
-		text-align: left;
+		display: block;
+		text-align: center;
 		margin-bottom: 20px;
-		margin-left: 28%;
 	}
 	.contLinks{
 		position: fixed;
