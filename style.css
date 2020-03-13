@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	font-family: Fira Sans;
 	color: #E6FDEC;
-	text-shadow: 1px 1px 1px #b30c00;
+	text-shadow: 2px 2px 2px #b30c00;
 } 
 body{
 	width: 100%;
@@ -87,7 +87,8 @@ h2{
 	text-align: center;
 	text-shadow: 1px 1px gray;
 	font-size: 50px;
-	width: 100%;
+	width: 80%;
+	margin: 10%;
 	height: 25%;
 }
 h3{
@@ -191,8 +192,8 @@ li{
 		padding-left: 0;
 	}
 	main{
-		width: inherit;
-		margin: 0 15%;
+		width: 80%;
+		margin: 0 10%;
 	}
 	.me{
 		height: 250px;
