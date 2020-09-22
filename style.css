@@ -1,3 +1,10 @@
+:root{
+	--primary-color: lawngreen;
+	--secondary-color: purple;
+	--third-color: rgb(255, 115, 0);
+	--background-color: black;
+	--card-background: #242424;
+}
 *{
 	box-sizing: border-box;
 	font-family: Fira Sans;
@@ -5,7 +12,7 @@
 body{
 	width: 100%;
 	margin: 0;
-	background-color: #151615;
+	background-color: var(--background-color);
 	color: #E6FDEC;
 }
 #top{
@@ -15,7 +22,6 @@ body{
 	width: 100%;
 	height: 75px;
 	margin-top: 0;
-	background-color: #2A2B2A;
 }
 header{
 	display: inline;
@@ -31,14 +37,17 @@ header{
 		margin-right: 15px;
 		margin-left: 0;
 		padding-left: 0;
+		
+
 	}
 .imgLink{
-	height: 45px;
-	width: 45px;
+	height: 60px;
+	width: 60px;
 	border-radius: 50%;
 }
 .contacts{
 	display: inline;
+	/* box-shadow: 0px 5px 5px 3px var(--secondary-color); */
 }
 h1{
 	display: block;
@@ -51,7 +60,7 @@ h1{
 	font-size: 80px;
 	line-height: 100px;
 	color: black;
-	text-shadow: 5px 5px 10px gray;
+	text-shadow: 5px 5px 10px var(--secondary-color);
 }
 .links{
 	width: 100%;
@@ -64,12 +73,13 @@ h1{
 	display: inline;
 	text-decoration: none;
 	text-align: center;
-	font-size: 32px;
+	font-size: 3rem;
 	width: 10%;
 	height: 30px;
 	font-weight: 700;
 	margin-top: 5px;
 	margin-bottom: 10px;
+	text-shadow: 0px 8px 9px var(--third-color);
 }
 .projects{
 	margin-left: 10px;
@@ -87,15 +97,15 @@ span{
 }
 h2{	
 	text-align: center;
-	text-shadow: 1px 1px gray;
+	text-shadow: 0px 8px 8px var(--primary-color);
 	font-size: 50px;
 	width: 80%;
-	margin: 10%;
+	margin: 0 10% 10% 10%;
 	height: 25%;
 }
 h3{
 	text-align: center;
-	text-shadow: 3px 3px 3px rgb(228, 224, 224);
+	text-shadow: 0px 8px 8px var(--secondary-color);
 	font-size: 45px;
 	width: 100%;
 }
@@ -111,7 +121,7 @@ li img{
 	height: 300px;
 	width: 80%;
 	border-radius: 25px;
-	box-shadow: 5px 5px 5px black;
+	box-shadow: 0px 5px 20px 3px var(--third-color);
 }
 .inProgress{
 		color: red;
@@ -133,7 +143,7 @@ li a{
 	margin: 20px;
 	border-radius: 25%;
 	border: 1px solid #fcd2cf;
-	box-shadow: 5px 5px 5px rgb(121, 108, 108);
+	box-shadow: 0px 5px 20px 3px var(--third-color);
 }
 .sons{
 	display: block;
@@ -143,7 +153,8 @@ li a{
 	margin: 20px;
 	border-radius: 25%;
 	border: 1px solid #fcd2cf;
-	box-shadow: 5px 5px 5px rgb(121, 108, 108);
+	box-shadow: 0px 5px 20px 3px var(--third-color);
+	
 }
 .girls{
 	display: block;
@@ -153,25 +164,35 @@ li a{
 	margin: 20px;
 	border-radius: 25%;
 	border: 1px solid #fcd2cf;
-	box-shadow: 5px 5px 5px rgb(121, 108, 108);
+	box-shadow: 0px 5px 20px 3px var(--third-color);
+	
 }
 main{
 	width: 80%;
 	margin: 30px 10% 0 10%;
 }
 #aboutMe{
-		padding-top: 10px;
+		margin-top: 5em;
+		padding: 1.5em;
+		background-color: var(--card-background);
+		border-radius: 10px;
+		box-shadow: 0px 10px 20px 2px var(--primary-color);
+		text-shadow: -3px 5px 5px var(--secondary-color);
+}
+#aboutMe p{
+	font-size: 1.3rem;
 }
 #myWork{
 		padding-top: 10px;
 }
 p{
 	width: 100%;
-	font-size: 16px;
+	font-size: 1.4rem;
 	line-height: 24px;
 	margin-top: 25px;
 	margin-bottom: 0;
 	font-weight: 600;
+	text-shadow: -3px 5px 5px var(--secondary-color);
 }
 .greeting{
 	font-size: 32px;
@@ -187,12 +208,12 @@ li{
 }
 
 .myProjects li{
-	background-color: #c1c9c3;
-	color: black;
+	background-color: var(--card-background);
+	color: white;
 	padding: 1.4em;
 	border-radius: 25px;
-	text-shadow: none;
-	box-shadow: 5px 5px 5px rgb(121, 108, 108);
+	text-shadow: 0 1px 4px 2px var(--secondary-color);
+	box-shadow: 0px 10px 20px 2px var(--primary-color);
 }
 
 
